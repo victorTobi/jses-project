@@ -16422,12 +16422,12 @@ script+.promo--on-white {
 }
 
 .in-page-nav {
-    position: relative;
+    position: sticky;
     z-index: 9991
 }
 
 .in-page-nav.is-expanded .in-page-nav__nav-list {
-    display: block
+    display: block;
 }
 
 .in-page-nav.is-expanded .in-page-nav__active-section:after {
